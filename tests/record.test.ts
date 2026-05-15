@@ -20,6 +20,6 @@ it('records responses with redacted metadata and deterministic body hashes', asy
   const pack = await recordManifest([{ url: 'https://example.com/api' }], { outDir, headerAllowlist: [] });
 
   expect(pack.records[0]?.headers.authorization).toBe('[redacted]');
-  expect(pack.records[0]?.bodySha256).toBe('e4285e53e892b80c86a0e801cbbcf29d3267e2c77ec07f83ebca4d5311a06da4');
+  expect(pack.records[0]?.bodySha256).toBe('e5f1eb4d806641698a35efe20e098efd20d7d57a9b90ee69079d5bb650920726');
   await expect(readFile(join(outDir, pack.records[0]!.bodyFile), 'utf8')).resolves.toBe('{"ok":true}\n');
 });
