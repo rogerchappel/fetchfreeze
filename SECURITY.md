@@ -19,6 +19,8 @@ If the project does not publish versioned releases yet, say that clearly.
 
 Please do not report suspected vulnerabilities in public issues, pull requests, or discussions.
 
+FetchFreeze is designed to reduce fixture leaks, but contributors should still review generated packs before committing them. Treat captured response bodies as source code: if an upstream service may return private data, do not record it into this repository.
+
 Ask maintainers for the private security reporting path before sharing details.
 
 If no private reporting path exists yet, ask maintainers through public project channels for a private reporting path. Do not include exploit details, secrets, personal data, or sensitive technical details in public messages.
