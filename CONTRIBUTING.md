@@ -2,7 +2,7 @@
 
 Thanks for helping improve `fetchfreeze`.
 
-This project values small, reviewable contributions with clear verification.
+This project values small, reviewable contributions with clear verification. Preserve the local-first contract: deterministic files, conservative redaction, and no required hosted service.
 
 ## Issues
 
@@ -35,6 +35,7 @@ Pull requests should:
 - Use a branch.
 - Follow Conventional Commits.
 - Include tests or verification appropriate to the change.
+- Link the pull request to the task or issue it completes.
 - Update documentation when behavior or usage changes.
 - Avoid unrelated formatting or dependency churn.
 - Avoid secrets, private contact details, and project-specific sensitive information.
