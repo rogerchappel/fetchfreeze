@@ -26,7 +26,8 @@
     "test": "vitest run",
     "smoke": "bash scripts/smoke.sh",
     "package:smoke": "npm pack --dry-run",
-    "release:check": "npm test && npm run check && npm run build && npm run smoke && npm run package:smoke"
+    "release:check": "npm test && npm run check && npm run build && npm run smoke && npm run package:smoke",
+    "prepare": "npm run build"
   },
   "keywords": [
     "fixtures",
