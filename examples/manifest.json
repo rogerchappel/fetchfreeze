@@ -1,0 +1,12 @@
+{
+  "urls": [
+    {
+      "id": "docs-home",
+      "method": "GET",
+      "url": "https://example.com/docs",
+      "headers": {
+        "accept": "text/html"
+      }
+    }
+  ]
+}

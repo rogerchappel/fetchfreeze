@@ -1,0 +1,21 @@
+{
+  "createdAt": "2026-05-16T00:00:00.000Z",
+  "records": [
+    {
+      "bodyBytes": 33,
+      "bodyFile": "bodies/001-api-example.test-data.json",
+      "bodySha256": "60f22aa3f003275d2b73a0b8f33b5be57c8c1e7a2bf1236b1acc385479147f61",
+      "contentType": "application/json",
+      "headers": {
+        "content-type": "application/json",
+        "x-request-id": "[redacted]"
+      },
+      "id": "001-api-example.test-data",
+      "method": "GET",
+      "recordedAt": "2026-05-16T00:00:00.000Z",
+      "status": 200,
+      "url": "https://api.example.test/data.json"
+    }
+  ],
+  "schema": "fetchfreeze.v1"
+}

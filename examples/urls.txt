@@ -1,0 +1,2 @@
+# FetchFreeze example manifest
+GET https://api.example.test/data.json
