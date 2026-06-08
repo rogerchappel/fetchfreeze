@@ -20,7 +20,8 @@
     "examples",
     "scripts",
     "README.md",
-    "LICENSE"
+    "LICENSE",
+    "SECURITY.md"
   ],
   "scripts": {
     "check": "tsc --noEmit",
