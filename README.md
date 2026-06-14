@@ -105,3 +105,17 @@ Please read [CONTRIBUTING.md](CONTRIBUTING.md), [SECURITY.md](SECURITY.md), and 
 ## License
 
 MIT
+
+## Development
+
+Run the same checks locally before opening a change:
+
+```sh
+npm ci
+npm run check
+npm run build
+npm test
+npm run smoke
+npm run package:smoke
+npm run release:check
+```
